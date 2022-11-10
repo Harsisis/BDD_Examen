@@ -10,7 +10,7 @@ Scenario: All inputs are good
     Then user is on page paymentConfirmed
 
 Scenario: Credit card number is not 16 digits long
-	Given user fills the three inputs
+	Given user fills the three inputs with wrong credit card
     And credit card number is not sixteen digits long
     And expiration date is at format MM/YYYY
     And cvc is three digits long
@@ -18,7 +18,7 @@ Scenario: Credit card number is not 16 digits long
     Then user is on homePage
 
 Scenario: Expiration is not at format MM/YYYY
-	Given user fills the three inputs
+	Given user fills the three inputs with wrong expiration
     And credit card number is sixteen digits long
     And expiration date is not at format MM/YYYY
     And cvc is three digits long
@@ -26,7 +26,7 @@ Scenario: Expiration is not at format MM/YYYY
     Then user is on homePage
 
 Scenario: CVC is not three digits long
-	Given user fills the three inputs
+	Given user fills the three inputs with wrong CVC
     And credit card number is sixteen digits long
     And expiration date is at format MM/YYYY
     And cvc is not three digits long

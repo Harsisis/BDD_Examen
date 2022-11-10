@@ -150,7 +150,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 13
- testRunner.Given("user fills the three inputs", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("user fills the three inputs with wrong credit card", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 14
     testRunner.And("credit card number is not sixteen digits long", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -190,7 +190,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 21
- testRunner.Given("user fills the three inputs", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("user fills the three inputs with wrong expiration", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 22
     testRunner.And("credit card number is sixteen digits long", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -230,7 +230,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 29
- testRunner.Given("user fills the three inputs", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("user fills the three inputs with wrong CVC", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 30
     testRunner.And("credit card number is sixteen digits long", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
