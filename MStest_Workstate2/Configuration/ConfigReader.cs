@@ -29,14 +29,6 @@ namespace SpecFlowProject_BDD.Configuration {
             }
         }
 
-        public string GetPlayerOne() {
-            return settings.PlayerOne;
-        }
-
-        public string GetPlayerTwo() {
-            return settings.PlayerTwo;
-        }
-
         public string GetWebsite() {
             return settings.Website;
         }

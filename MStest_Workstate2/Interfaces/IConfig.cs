@@ -7,11 +7,6 @@ using System.Text;
 namespace SpecFlowProject_BDD.Interfaces {
     public interface IConfig {
         public BrowserType GetBrowser();
-
-        public string GetPlayerOne();
-
-        public string GetPlayerTwo();
-
         public string GetWebsite();
     }
 }
